@@ -28,3 +28,4 @@ ENV SHELL_GROUP user
 ENV ENABLE_SOCKGUARD true
 COPY entrypoint.sh /
 ENTRYPOINT ["/entrypoint.sh"]
+EXPOSE 4200
